@@ -8,7 +8,9 @@ const List = () => {
     const classes = useStyles();
 
     const transactions = [
-        { id: 1, type: "Income", category: 'Salary', amount: 50, date: new Date() }
+        { id: 1, type: "Income", category: 'Salary', amount: 50, date: "Sat Nov 27" },
+        { id: 1, type: "Expense", category: 'Pets', amount: 50, date: "Sat Nov 28" },
+        { id: 1, type: "Income", category: 'Business', amount: 150, date: "Sat Nov 29" }
     ];
 
     return (
